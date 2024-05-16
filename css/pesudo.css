@@ -1,0 +1,162 @@
+article p::first-line{
+    font-size: 1.2em;
+}
+p::selection{
+    background-color: #99cfeeaf;
+    color: #dbdd7e;
+}
+h1::selection{
+    background-color: #99cfeeaf;
+    color: #dbdd7e;
+}
+h2::selection{
+    background-color: #99cfeeaf;
+    color: #dbdd7e;
+}
+h3::selection{
+    background-color: #99cfeeaf;
+    color: #dbdd7e;
+}
+a::selection{
+    background-color: #99cfeeaf;
+    color: #cfdafd;
+}
+
+
+
+.read.more:hover{
+    color: #5691ff;
+    transition: all 100ms linear;
+}
+.read.more:active{
+    color: #ffffff;
+    transition: all 10ms linear;
+}
+
+
+.container-b a img:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 100ms ease;
+}
+
+
+
+.topnav .navv:hover {
+    font-size: 1.00001em;
+    color: #ffffff;
+    transition: all 120ms ease;
+    padding: 13px 15px;
+}
+
+.topnav a.activee:hover {
+    color: #ffffff;
+    transition: all 120ms linear;
+    font-size: 1.0001em;
+    padding: 13px 15px;
+}
+
+.topnav a:active{
+    transform: scale(0.9, 0.9);
+    transition: all 300ms linear;
+}
+
+.topnav a.icon:hover{
+    background-color: rgba(80, 129, 235, 0.3);
+    color: black;
+    transition: all 300ms ease-in-out;
+}
+
+
+
+
+.link-article div:hover{
+    transform: scale(1.1, 1.1);
+    text-decoration: underline;
+    transition: all 200ms ease-in-out;
+}
+.link-article div div:hover{
+    transform: scale(1, 1);
+    color: #5691ff;
+}
+
+
+form input[type=email]:focus{
+    color: #ececec;
+    background-color: #363636;
+    width: 43%;
+    border-bottom: #1111ff solid 2px;
+    transition: all 200ms ease;
+}
+form input[type=email]:invalid{
+    border-bottom: 2px solid #ff0000;
+}
+form button:hover{
+    transition: all 200ms ease;
+    background-color: #585858;
+}
+form button:active{
+    transform: scale(0.93, 0.93);
+    transition: all 100ms ease;
+}
+
+
+.footer-nav a:hover{
+    text-decoration: underline;
+}
+.footer-nav a:active{
+    color: white;
+}
+
+
+
+
+
+
+/* about page */
+
+.about-article-side-links a:hover{
+    text-decoration: underline;
+}
+.about-article-side-links a:active{
+    color: #ffffff;
+}
+.about-article p::first-line{
+    font-size: 1em;
+}
+.about-article-side-links div p::before{
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+
+    border: solid 10px transparent;
+    border-top: 10px solid blue;
+    border-bottom-width: 0;
+    bottom: -7px;
+    left: 46%;
+}
+
+
+/* credits page */
+
+.info-img a:hover{
+    background-color: #215dce;
+    font-size: 1.05em;
+    transition: all 100ms ease-in-out;
+}
+.info-img a:active{
+    background: none;
+    font-size: 1em;
+    transition: all 100ms linear;
+}
+.info-career div a:hover{
+    font-size: 1.0001em;
+    transition: all 100ms linear;
+}
+.info-career div a:active{
+    font-size: 1em;
+    color: blue;
+    border-bottom: 1px solid blue;
+    transition: all 100ms linear;
+}
